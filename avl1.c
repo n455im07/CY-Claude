@@ -144,7 +144,7 @@ AVL* suppMinAVL(AVL* avl,int* h,int* p){
 AVL* suppAVL(AVL* avl,int e,int* h){
     printf("AHAHA");
     if (avl==NULL){
-        *h=1;
+        *h=0;
         return avl ;
     }
     if (e<avl->val){
